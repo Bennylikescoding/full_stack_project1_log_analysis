@@ -212,6 +212,7 @@ Next, we sum the count of each author:
 We should use aggregate (http://www.postgresqltutorial.com/postgresql-grouping-sets/):
 
 select name, sum(count) from mytable3 group by name order by sum desc;
+
 **this will return:**
 name          |  sum
 ------------------------+--------
@@ -449,6 +450,7 @@ create table mytable_final as select mytable10.date, count/all_count::float as d
 
 
 select date,div from mytable_final where div>0.01;
+
 **this will return:**
 date    |        div
 ------------+--------------------
