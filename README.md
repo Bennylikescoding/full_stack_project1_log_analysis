@@ -127,9 +127,9 @@ row_number |         substring         | count
 (9 rows)
 
 select slug from public.articles;
-
 this will return:
-  slug
+
+slug
 ---------------------------
  bad-things-gone
  balloon-goons-doomed
