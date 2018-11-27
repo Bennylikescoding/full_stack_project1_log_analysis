@@ -2,7 +2,7 @@
 # List of all relational database
 List of relations
  Schema |   Name   | Type  |  Owner
---------+----------+-------+---------
+ --------+----------+-------+---------
  public | articles | table | vagrant
  public | authors  | table | vagrant
  public | log      | table | vagrant
@@ -129,7 +129,6 @@ row_number |         substring         | count
 select slug from public.articles;
 this will return:
 
-slug
 ---------------------------
  bad-things-gone
  balloon-goons-doomed
